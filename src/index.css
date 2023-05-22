@@ -18,4 +18,33 @@ body {
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
+    /* -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+      z-index: 1; */
+}
+
+button.primary {
+    display: flex;
+    width: 100%;
+    background: #F76826;
+    text-align: center;
+    justify-content: center;
+    border: 'none';
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+button.secondary {
+    display: flex;
+    width: 100%;
+    background: transparent;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #F76826;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
 }
