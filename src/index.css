@@ -40,10 +40,11 @@ button.primary {
 button.secondary {
     display: flex;
     width: 100%;
-    background: transparent;
+    background: white;
     text-align: center;
     justify-content: center;
-    border: 1px solid #F76826;
+    border: none;
+    color: #000;
     padding: 10px;
     font-size: 18px;
     border-radius: 10px;
